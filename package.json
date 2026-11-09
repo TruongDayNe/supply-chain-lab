@@ -1,0 +1,10 @@
+{
+  "name": "supply-chain-lab",
+  "version": "1.0.0",
+  "description": "Lab: SBOM, Cosign keyless signing, SLSA provenance",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.15"
+  }
+}
