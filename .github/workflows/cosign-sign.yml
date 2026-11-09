@@ -28,7 +28,7 @@ jobs:
 
       - name: Sign Artifact Keylessly
         run: |
-          cosign sign-blob --yes \
+          cosign sign-blob --yes --new-bundle-format=false --use-signing-config=false \
             --output-signature release.tar.gz.sig \
             --output-certificate release.tar.gz.pem \
             release.tar.gz
